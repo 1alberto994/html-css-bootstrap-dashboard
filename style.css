@@ -3,23 +3,29 @@
     /* flex-direction: column; */
     /* flex-wrap: wrap; */
 }
-section{
-    background-color: green;
-    height: 300px;
-}
-.second-section{
-    background-color: blueviolet;
-    height: 300px;
-}
-.ms-container{
-    width: 80%;
-}
+
+
 .mp-container{
-    width: 20%;
+    width:10%;
     background-color: black;
     height: 1000px;
 }
+.ms-container{
+    width:90%;
+}
+
 .my-container{
     display: flex;
-    flex-direction: column;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+.classi{
+    vertical-align: middle;
+}
+.avatar{
+    width: 5%;
+    vertical-align: middle;
+}
+.stats{
+    width: 100%;
 }
