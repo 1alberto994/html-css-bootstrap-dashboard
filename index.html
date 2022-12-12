@@ -14,13 +14,20 @@
         <header>
             <div class=" p-3">
                 <div class="row">
-                    <div class="col-2">
-                        <img src="img/logo.svg" alt="logo">
+                    <div class="col-2 d-flex align-items-center">
+                        <img class="logo" src="img/logo.svg" alt="logo">
+                        <img class="mobile-logo" src="img/mobile-logo.png" alt="mobile-logo">
                     </div>
-                    <div class="col-8">
-                        <input  type="text"  placeholder="search">
+                    <div class="col-8 input-group-text  ">
+                        <!-- <input  type="text"  placeholder="search"> -->
+                        
+                            <!-- <span class="input-group-text" id="basic-addon1"><i class="fa-regular fa-magnifying-glass"></i></span> -->
+                            <!-- <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1"> -->
+                            <span><button class="btn btn-outline-secondary" type="button" id="button-addon1"><i class="fa-regular fa-magnifying-glass"></i></button></span>
+                            <input type="text" class="form-control" placeholder="Search" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                          
                     </div>
-                    <div class="col-2 ">
+                    <div class="col-2 justify-content-end d-flex align-items-center  ">
                         <a href="">
                             <i class="text-black m-1 fa-solid fa-bars"></i>
                         </a>
@@ -38,15 +45,11 @@
         </header>
         <main>
             <div class="super">
-                <div class="mp-container">
-                    <aside>
+                <div class="mp-container ">
+                    <aside class="position-sticky ">
                         <nav class="navbar navbar-expand-lg my-container ">
                             <div class=>
-                              
-                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                              </button>
-                                <div class="collapse navbar-collapse " id="navbarNav">
+                                <div  id="navbarNav">
                                         <ul class="navbar-nav my-container ">
                                             <li class="nav-item ">
                                                 <a class="nav-link active text-white" aria-current="page" href="#"><i class=" text-white fa-solid fa-house"></i>Home</a>
@@ -55,10 +58,15 @@
                                                 <a class="nav-link text-white" href="#"><i class="text-white fa-sharp fa-solid fa-chart-simple"></i>Stats</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link text-white" href="#"><i class="text-white fa-light fa-signal-bars"></i>Signals</a>
+                                                <a class="nav-link text-white" href="#"><i class="text-white fa-solid fa-signal-bars"></i>Signals</a>
                                             </li>
                                         
                                         </ul>
+                                </div>
+                                <div class=" justify-content-end">
+                                    <a class="nav-link text-white" href="">
+                                        Admin
+                                    </a>
                                 </div>
                             </div>
                         </nav>
@@ -93,7 +101,7 @@
                                    
                                 </div>
                                 <div class="col-4 text-end">
-                                    <p class="text-white">Nuovi studenti<button type="button" class="btn" ><i class="text-white fa-solid fa-plus"></i></button> </p> 
+                                    <p class="text-white">Nuovi studenti <span><button type="button" class="btn" ><i class="text-white fa-solid fa-plus"></i></button></span></p>  
                                     
 
                                 </div>

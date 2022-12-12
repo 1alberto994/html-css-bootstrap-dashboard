@@ -2,11 +2,13 @@
     display: flex;
     /* flex-direction: column; */
     /* flex-wrap: wrap; */
+    
 }
 
 
 .mp-container{
     width:10%;
+    background-image: url(img/sidebar-bg.png);
     background-color: black;
     
 }
@@ -29,6 +31,10 @@
 .stats{
     width: 100%;
 }
+.mobile-logo{
+    display: none;
+}
+
 
 
 
@@ -37,5 +43,12 @@
     .first{
         display: flex;
         flex-direction: column-reverse;
+    }
+    .fa-bars,.fa-circle-question,.logo{
+        display: none;
+    }
+    .mobile-logo{
+        display: block;
+        width: 100%;
     }
 }
