@@ -1,0 +1,25 @@
+.super{
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+section{
+    background-color: green;
+    height: 300px;
+}
+.second-section{
+    background-color: blueviolet;
+    height: 300px;
+}
+.ms-container{
+    width: 80%;
+}
+.mp-container{
+    width: 20%;
+    background-color: black;
+    height: 1000px;
+}
+.my-container{
+    display: flex;
+    flex-direction: column;
+}
