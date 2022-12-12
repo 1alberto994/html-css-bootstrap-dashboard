@@ -8,7 +8,7 @@
 .mp-container{
     width:10%;
     background-color: black;
-    height: 1000px;
+    
 }
 .ms-container{
     width:90%;
@@ -16,8 +16,8 @@
 
 .my-container{
     display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .classi{
     vertical-align: middle;
@@ -28,4 +28,14 @@
 }
 .stats{
     width: 100%;
+}
+
+
+
+
+@media screen and (max-width:540px){
+    .first{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
