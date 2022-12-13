@@ -1,15 +1,15 @@
 .super{
     display: flex;
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-    
+    margin-top: 100px;
 }
-
-
 .mp-container{
     width:10%;
     background-image: url(img/sidebar-bg.png);
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
     
 }
 .ms-container{
@@ -32,23 +32,40 @@
     width: 100%;
 }
 .mobile-logo{
+    width: 50px;
     display: none;
+    height: 50px;
+    
 }
+ul{
+    list-style: none;
+}
+.as-container a{
+    text-decoration: none;
+}
+.button{
+   font-size: 10px; 
+}
+button{
+    border-color:white ;
+}
+/* .as-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
 
 
 
 
 
-@media screen and (max-width:540px){
-    .first{
-        display: flex;
-        flex-direction: column-reverse;
-    }
+@media screen and (max-width:992px){
+    
     .fa-bars,.fa-circle-question,.logo{
         display: none;
     }
     .mobile-logo{
         display: block;
-        width: 100%;
+        
     }
 }
