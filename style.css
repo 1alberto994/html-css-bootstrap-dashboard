@@ -6,9 +6,9 @@
     width:10%;
     background-image: url(img/sidebar-bg.png);
     background-color: black;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
     
     
 }
@@ -49,11 +49,11 @@ ul{
 button{
     border-color:white ;
 }
-/* .as-container{
+.as-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-} */
+    justify-content: stretch;
+}
 
 
 
